@@ -1,0 +1,132 @@
+/********ID's********/
+#title {
+  background-color: #ff4c68;
+}
+
+/****Class****/
+.container-fluid {
+  padding: 0 15%;
+}
+
+.col-lg-6 {
+  padding-top: 5rem;
+}
+.navbar-nav{
+  text-align: right;
+}
+.navbar-brand {
+  font-family: 'Abril Fatface', cursive;
+}
+.image {
+  position: relative;
+  top: 140px;
+  left: 100px;
+  width: 50%;
+  transform: rotate(25deg);
+}
+
+.Downloadimage {
+  margin: 5% 3% 5% 0;
+}
+/* features */
+.feature{
+  text-align: center;
+}
+.featureimg{
+  color: #eb6383;
+  padding: 1rem;
+}
+.featureimg:hover{
+  color: #ff4c68;
+}
+#features{
+padding: 7% 5% 7%;
+background-color: #fff;
+position: relative;
+z-index: 1;
+}
+/* testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #eb6383;
+  color: #fff;
+}
+.testimonial-image{
+  width: 23%;
+  border-radius: 100%;
+  padding: 3rem;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* press */
+#press{
+  text-align: center;
+  background-color: #eb6383;
+}
+.press-image{
+  width: 17%;
+  padding:3rem;
+}
+/* pricing */
+#pricing{
+  padding: 7% 15%;
+  background-color: #fff;
+  text-align: center;
+}
+.price-card{
+  padding: 10px;
+}
+/***********Tags*********/
+h1 {
+  color: #fff;
+  padding-top: 5rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+h3{
+  font-weight: 700;
+}
+/* call to Action */
+#cta{
+  padding: 3% 5%;
+  text-align:center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.cta-h3{
+  text-align: center;
+  padding: 5%;
+  font-weight: 800;
+  font-size: 40px;
+  width: 50%;
+  margin: auto;
+  line-height: 1.5;
+}
+/* footer */
+#footer{
+  text-align: center;
+  padding: 3%;
+  background-color: #fff;
+}
+.si{
+  padding: 1%;
+}
+.Downloadimage2{
+  margin: auto 10px auto ;
+}
+/* media-query */
+@media (max-width:1028px) {
+  .image{
+    position: static;
+    transform: rotate(0deg);
+  }
+ #title{
+    text-align: center;
+  }
+  .testimonial-image{
+    width: 50%;
+    border-radius: 100%;
+    padding: 3rem;
+  }
+}
